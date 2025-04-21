@@ -1,0 +1,103 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, button {
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  padding: 1.8em 1.3em;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+/* Intro Section */
+
+.intro--client-name {
+  font-weight: 700;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all .4s ease-out;
+}
+
+.intro--client-name, .par-block-text {
+  padding-left: 2.8em;
+}
+
+h1 {
+  font-size: 2rem;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all .4s ease-out;
+}
+
+.par-block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.intro-par {
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: all .4s ease-out;
+}
+
+img {
+  width: 100%;
+  height: 420px;
+  margin-top: 1.3em;
+  opacity: 0; 
+  transform: translateY(30px);
+  transition: all .3s ease-out;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+/* Animation Section */
+
+.animation-section {
+  gap: 4em;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.animation-section-heading {
+  padding-left: 1.5em;
+}
+
+.animation-video {
+  width: 100%;
+  height: 160px;
+  background-color: brown;
+}
+
+
+/* Utility */
+
+.visible {
+  opacity: 1; 
+  transform: translateX(0px);
+}
+
+.border-radious {
+  border-radius: 0.6em;
+}
