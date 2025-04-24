@@ -4,71 +4,164 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lead Generation Landing Page</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
 
     <!-- Font Inter  -----  delete 100, 200, 300, 400, 500, 600, 700, 800, 900 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   </head>
   <body>
     <main>
       <section>
-        <p id="intro--client-name" class="intro--client-name">Jason Briscoe</p>
+        <p id="intro--client-name" class="intro--client-name">Leonardo DiCaprio</p>
         <h1>Design partner for early stage ventures.</h1>
         <div id="intro--client-hero-text" class="par-block-text intro-par">
-          <p>I've spent a couple of decades designing, building and advising brands. Based in London, Toronto and NYC.</p>
-          <p>I run a design studio called The Workshop — partnering with founders, product teams and venture funds.</p>
-          <p>You can reach me on Email, LinkedIn or schedule a call</p>
+          <p>
+            I've spent a couple of decades designing, building and advising
+            brands. Based in London, Toronto and NYC.
+          </p>
+          <p>
+            I run a design studio called The
+            <a class="in-text-link" href="#">Workshop</a> — partnering with
+            founders, product teams and venture funds.
+          </p>
+          <p>
+            You can reach me on <a class="in-text-link" href="#">Email</a>,
+            <a class="in-text-link" href="#">LinkedIn</a> or
+            <a class="in-text-link" href="#">schedule a call</a>
+          </p>
         </div>
-        <img id="hero-img" class="border-radious" src="./images/client.jpg" alt="Jason Briscoe." />
+        <div class="img-container">
+          <img
+            id="hero-img"
+            class="dynamic-scale-img border-radious"
+            src="./images/high-res-client.jpg"
+            alt="Jason Briscoe."
+          />
+        </div>
       </section>
       <section class="animation-section">
-        <h2 class="animation-section-heading">Concept. Brand. Build. Launch. Exit.</h2>
-        <div class="animation-video border-radious">Vimeo</div>
-        <div id="animation--par-block-text" class="par-block-text animation-par">
+        <h2 id="animation-section-heading" class="animation-section-heading">
+          <span class="block">Concept.</span> Brand. Build. Launch. Exit.
+        </h2>
+
+        <div class="animation-video border-radious">
+          <div
+            class="border-radious"
+            style="padding: 56.25% 0 0 0; position: relative"
+          >
+            <iframe
+              class="border-radious"
+              src="https://player.vimeo.com/video/759911151?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;controls=0&amp;background=1"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              title="Google Design - Design and Material Explorations"
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+
+        <div
+          id="animation--par-block-text"
+          class="par-block-text animation-par"
+        >
           <p>
-            I help companies make strategic foundational decisions and leverage their position in the market — providing long-term support, often through a blend of cash and equity.
+            I help companies make strategic foundational decisions and leverage
+            their position in the market — providing long-term support, often
+            through a blend of cash and equity.
           </p>
-          <p>In recent years, I've helped build multiple businesses leading to over $55M in capital investment.</p>
+          <p>
+            In recent years, I've helped build multiple businesses leading to
+            over $55M in capital investment.
+          </p>
         </div>
       </section>
       <section>
-        <h2>Here's what you can expect from me...</h2>
+        <h2 class="card-heading">Here's what you can expect from me...</h2>
         <div class="card-container">
-          <div class="quality-card">
+          <div class="quality-card torqoise border-radious dynamic-scale">
             <p class="card-title">Value</p>
-            <p class="card-descriptiom">Experience, big energy and fresh thinking</p>
+            <p class="card-description">
+              Experience, big energy and fresh thinking
+            </p>
           </div>
-          <div class="quality-card">
+          <div class="quality-card green border-radious dynamic-scale">
             <p class="card-title">Jordan Nott, Founder</p>
-            <p class="card-descriptiom">"It's very rare in life when you meet someone that is so decisively exceptional at what they do."</p>
+            <p class="card-description">
+              "It's very rare in life when you meet someone that is so
+              decisively exceptional at what they do."
+            </p>
           </div>
-          <div class="quality-card">
+          <div class="quality-card red border-radious dynamic-scale">
             <p class="card-title">Insights</p>
-            <p class="card-descriptiom">Bridge the gap between creative and commercial objectives — speaking both languages.</p>
+            <p class="card-description">
+              Bridge the gap between creative and commercial objectives —
+              speaking both languages.
+            </p>
           </div>
-          <div class="quality-card">
+          <div class="quality-card blue border-radious dynamic-scale">
             <p class="card-title">Peter Hwang, Founder</p>
-            <p class="card-descriptiom">"From a creative perspective, I've never worked with a more talented individual."</p>
+            <p class="card-description">
+              "From a creative perspective, I've never worked with a more
+              talented individual."
+            </p>
           </div>
-          <div class="quality-card">
+          <div class="quality-card matte-blue border-radious dynamic-scale">
             <p class="card-title">Growth</p>
-            <p class="card-descriptiom">The foundations to scale — from world-class design and advisory to building your future team.</p>
+            <p class="card-description">
+              The foundations to scale — from world-class design and advisory to
+              building your future team.
+            </p>
           </div>
-          <div class="quality-card">
+          <div class="quality-card purple border-radious dynamic-scale">
             <p class="card-title">Fun</p>
-            <p class="card-descriptiom">Teach teams to move at velocity and have a hell of a lot of fun doing it.</p>
+            <p class="card-description">
+              Teach teams to move at velocity and have a hell of a lot of fun
+              doing it.
+            </p>
           </div>
         </div>
-        <div class="par-block-text">
-          <p>Culturally, I fit high-energy and fun management teams. If this sounds like you, I'd love to connect.</p>
-          <p>Reach out on Email, LinkedIn or schedule a call.</p>
+        <div class="par-block-text card-section-text">
+          <p>
+            Culturally, I fit high-energy and fun management teams. If this
+            sounds like you, I'd love to connect.
+          </p>
+          <p>
+            Reach out on <a class="in-text-link" href="#">Email</a>,
+            <a class="in-text-link" href="#">LinkedIn</a> or
+            <a class="in-text-link" href="#">schedule a call</a>.
+          </p>
           <p>Looking forward to it,</p>
-          <img src="signature" alt="Jason Briscoe's signature.">
+          <img
+            class="signature-img visible"
+            src="./images/signature-2.webp"
+            alt="Jason Briscoe's signature."
+          />
         </div>
       </section>
+      <footer>
+        <ul class="social-media-block">
+          <li><a class="footer-link" href="#">Email</a></li>
+          <li><a class="footer-link" href="#">LinkedIn</a></li>
+          <li><a class="footer-link" href="#">Istragram</a></li>
+          <li><a class="footer-link" href="#">X</a></li>
+        </ul>
+        <p>&copy; Leonardo DiCaprio <span class="wave-animation">👋</span></p>
+      </footer>
     </main>
     <script src="index.js"></script>
   </body>
