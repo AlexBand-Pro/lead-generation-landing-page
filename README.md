@@ -1,6 +1,8 @@
 # Lead Generation Landing Page
 
-**Live Demo:** https://alexband-pro.github.io/lead-generation-landing-page/
+## 📷 Demo
+
+![Landing Page Demo](https://github.com/user-attachments/images/lead-gen-page-port-thumb)
 
 ## Technologies Used
 - Vanilla JavaScript
