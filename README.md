@@ -23,8 +23,6 @@ Perfect for showcasing my ability to build interactive, high-performance fronten
 
 ---
 
-*(Optional) If you've added an 'About' or 'Contact' section on the page, you can also include:*
-
 ## Bonus Features
 - Scroll-trigger animations
 - Accessible design considerations
