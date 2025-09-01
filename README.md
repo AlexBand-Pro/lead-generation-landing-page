@@ -2,7 +2,7 @@
 
 ## 📷 Demo
 
-[![Landing Page Demo](https://raw.githubusercontent.com/expence-tracker/main/assets/demo.png)](https://alexband-pro.github.io/expence-tracker/)
+[![Landing Page Demo](https://raw.githubusercontent.com/expence-tracker/images/lead-gen-page-port-thumb.png)](https://alexband-pro.github.io/expence-tracker/)
 
 ## Technologies Used
 - Vanilla JavaScript
