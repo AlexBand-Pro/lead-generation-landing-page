@@ -1,5 +1,8 @@
 # Lead Generation Landing Page
 
+## Overview
+This project is a streamlined landing page designed for lead generation. It leverages vanilla JavaScript and GSAP to create eye-catching animations and transitions within a responsive, mobile-friendly layout.
+
 ## 📷 Demo
 
 [![Landing Page Demo](https://github.com/user-attachments/assets/e1646915-d26f-4d7b-9387-a1a693415980)](https://alexband-pro.github.io/lead-generation-landing-page/)
@@ -9,9 +12,6 @@
 - Responsive CSS for mobile-first design
 - GSAP (GreenSock Animation Platform) for animations
 - Hosted via GitHub Pages / Netlify
-
-## Overview
-This project is a streamlined landing page designed for lead generation. It leverages vanilla JavaScript and GSAP to create eye-catching animations and transitions within a responsive, mobile-friendly layout.
 
 ## Key Features
 - Lightweight, framework-free JavaScript implementation
